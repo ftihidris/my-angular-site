@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-home',
   template: `
-    <section class="hero is-primary is-fullheight">
+    <section class="hero is-fullheight">
   <div class="hero-body">
     <div class="container has-text-centered">
     <p class="title">My Homepage!</p>

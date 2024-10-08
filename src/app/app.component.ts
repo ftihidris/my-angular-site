@@ -4,14 +4,12 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `
   <app-header></app-header>
-  <app-contact></app-contact>
-  <app-home></app-home>
-  <app-footer></app-footer>
   <router-outlet></router-outlet>
-
+  <app-footer></app-footer>
   `,
   styles: []
 })
 export class AppComponent {
-  title = 'my-app';
+  constructor() {}
+  
 }
